@@ -25,8 +25,8 @@ Import("env")
 #
 
 VERSION_FILE = 'version'
-VERSION_HEADER = 'Version.h'
-VERSION_PREFIX = '0.1.'
+VERSION_HEADER = 'version.h'
+VERSION_PREFIX = '2.2.'
 VERSION_PATCH_NUMBER = 0
 
 if not os.path.exists(".version_no_increment"):
